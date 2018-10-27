@@ -2,7 +2,7 @@ applications:
 - name: tracker-allocations
   path: ./applications/allocations-server/build/libs/allocations-server.jar
   routes:
-  - route: allocations-pal-2ff99e60-1e5b-4395-9b87-bb69ce003406.apps.chicken.pal.pivotal.io
+  - route: allocations-pal-2ff99e60-1e5b-4395-9b87-bb69ce003406.cfapps.io
   memory: 1G
   instances: 1
   env:
