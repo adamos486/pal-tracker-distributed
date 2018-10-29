@@ -5,7 +5,6 @@ applications:
   - route: allocations-pal-2ff99e60-1e5b-4395-9b87-bb69ce003406.cfapps.io
   memory: 1G
   instances: 1
-  env:
-    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-99a67f89.cfapps.io
   services:
   - tracker-allocations-database
+  - tracker-service-registry
